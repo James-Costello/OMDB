@@ -1,0 +1,16 @@
+/*The .well class adds a rounded border around an element with a gray background color and some padding
+So it is necessary to adjust the .well class and the imgs within it to be uniform height*/
+
+#movies img, #movie img{
+  width: 100%;
+}
+
+@media(min-width: 960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height: 240px;
+  }
+}
